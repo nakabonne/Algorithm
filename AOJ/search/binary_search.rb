@@ -7,7 +7,7 @@ sum = 0
 
 for i in 0..(q-1)
   left = 0
-  right = n-1
+  right = n
   key = t[i]
   while left < right
     mid = (right+left)/2
